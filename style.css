@@ -1,0 +1,106 @@
+body{
+    background-color: #e7eff1;
+}
+
+img{
+    width: 200px;
+    vertical-align: bottom;
+}
+
+/* 헤더 */
+.headLine{
+    margin: 30px 0px;
+    font-size: 3rem;
+    font-family: Concert One;
+    color: #2C3A47;
+    text-shadow: 2px 2px 0px #bdbdbd;
+}
+
+/* 섹션 */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.holes{
+    width: 600px;
+    display: center;
+    border: 3px solid #2C3A47;
+    border-radius: 5px; 
+}
+
+.playGame{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
+
+/* 버튼 */
+.button{
+    display: flex;
+    align-items: center;
+    margin: 10px 15px;
+}
+
+.button-start{
+    all: unset;
+    cursor: pointer;
+    padding: 0px 20px;
+    height: 40px;
+    font-weight: bold;
+    font-size : 17px;
+    border-radius: 10px;
+    border: 2px solid #ffd32a;
+    background-color: #f7d794;
+    color: rgb(165, 28, 92);
+    box-shadow: 0 4px 6px rgba(50, 50, 83, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.button-start:hover{
+    border: 5px solid #ebbc00;
+}
+
+.button-start:active{
+    background-color: #b3f00c;
+}
+
+/* 카운트 */
+.realCount{
+    margin: 10px 15px;
+}
+
+.realCountView{
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: auto;
+    font-weight: bold;
+    font-size : 17px;
+    color: #016e25;
+    border: 2px solid #ffd32a;
+    background-color: #f7d794;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(50, 50, 83, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* 점수 */
+.realScore{
+    margin: 10px 15px;
+}
+
+.realScoreView{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    height: 40px;
+    width: auto;
+    font-weight: bold;
+    font-size : 17px;
+    border-radius: 10px;
+    color: #016e25;
+    border: 2px solid #ffd32a;
+    background-color: #f7d794;
+    box-shadow: 0 4px 6px rgba(50, 50, 83, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
